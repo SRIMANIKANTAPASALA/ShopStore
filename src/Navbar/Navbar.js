@@ -36,7 +36,7 @@ function Navbar(){
                 <li><Link to='/About' className='navbar-con-link'>About</Link></li>
                 <li><Link to='/Products' className='navbar-con-link'>Products</Link></li>
                 <li><Link to='/Contactus' className='navbar-con-link'>ContactUs</Link></li>
-                {displaylogin?<li><Link to='/addcart' className='navbar-con-link'>AddCart</Link></li>:<></>}
+                {displaylogin?<li><Link to='/addcart' className='navbar-con-link'>Cart</Link></li>:<></>}
                 {sharedValues.isAdmin?<li className={sharedValues.isAdmin?'wishlist-addparoducts':'wishlist-addparoducts-inactive'}><Link to='/Addproducts' className='navbar-con-link'>Addproducts</Link></li>:<></>}
 
             </ul>
