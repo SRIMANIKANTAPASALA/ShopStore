@@ -48,8 +48,8 @@ function Homepage(){
         <div className='homepage-container'>
             <div className='homepage-container-frontview'>
                 <div className='home-frontview-div1'>
-                <h3>Best Furniture For Your Castle....</h3>
-                <h2>New Furniture Collection Trends in 2020</h2>
+                <h3>Best Lifestyle and accessories For Your Castle....</h3>
+                <h2>New Lifestyle accessories Collection Trends in 2023</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing
                 in phasellus non in justo.</p>
                 <button onClick={handlenavigate}>Shop Now</button>
